@@ -177,4 +177,18 @@
 - 13.View和Activity & Window的关系
 - 14.Fragment算是Activity里View的一员吗？
 - 15.Toast & 对话框 & PopWindow & DialogFragment都会创建Window然后再放View？
+
+## Android通信篇
+
+- 1.对象和对象之间的通信方式:直接通信[方法调用] & 间接通信[内存回调通信 & 文件 & 其他等等] 
+- 2.1v1,1vN,Nv1,NVN方式通信
+- 3.线程间通信:共享资源 & 发送信号 & 线程安全问题
+- 4.封装一个类似EventBus的框架
+- 5.进程间通信方式:管道 & 信号量 & 文件 & Socket & 共享内存 & Binder等等
+- 6.Binder & 腾讯MMKV跨进程通信高效率 实现原理:MMAP
+- 7.Android中为什么Zygote采用Socket通信？
+- 8.Android中除去Zygote之外的进程间通信为什么采用Binder?
+- 9.Activity传输数据到另外一个Activity为什么采用Intent而不是HashMap?   
+- 10.系统广播和本地广播的原理，为什么使用EventBus会更加合适App的开发
+- 11.跨语言通信:JNI & WebView H5交互，它们的通信采用的什么原理？
   
